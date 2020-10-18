@@ -1,3 +1,5 @@
+@import url('../../fonts/Rubik/stylesheet.css');
+
 @font-face {
   font-family: 'Font Awesome 5 Pro';
   font-style: normal;
@@ -73,6 +75,31 @@
   font-weight: 600;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../../fonts/Rubik/RubikLight.eot');
+    src: url('../../fonts/Rubik/RubikLight.eot') format('embedded-opentype'),
+         url('../../fonts/Rubik/RubikLight.woff2') format('woff2'),
+         url('../../fonts/Rubik/RubikLight.woff') format('woff'),
+         url('../../fonts/Rubik/RubikLight.ttf') format('truetype'),
+		 url('../../fonts/Rubik/RubikLight.svg#RubikLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../../fonts/Rubik/RubikRegular.eot');
+    src: url('../../fonts/Rubik/RubikRegular.eot') format('embedded-opentype'),
+         url('../../fonts/Rubik/RubikRegular.woff2') format('woff2'),
+         url('../../fonts/Rubik/RubikRegular.woff') format('woff'),
+         url('../../fonts/Rubik/RubikRegular.ttf') format('truetype'),
+		 url('../../fonts/Rubik/RubikRegular.svg#RubikRegular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
 
 .fa,
 .fas {
@@ -1537,7 +1564,7 @@
 /* porfolio_6 */
 
 .porfolio_6 {
-  font: 400 20px/1.2 "OpenSans", "Arial",sans-serif;
+  font: 400 20px/1.2 "Rubik", "OpenSans", "Arial", sans-serif;
 }
 
 .porfolio_6 img {
@@ -1553,7 +1580,7 @@
 }
 
 .porfolio_6 .title-h1 {
-  font: 300 60px/1.2 "OpenSans", "Arial",sans-serif;
+  font: 300 60px/1.2 "Rubik", "OpenSans", "Arial",sans-serif;
 }
 
 .padding_left-50 {
@@ -1580,15 +1607,15 @@
 
 .porfolio_6__header {
   background-color:#0174FF;
-  padding: 50px 0 30px;
+  padding: 50px 0 57px;
 }
 
 .porfolio_6__logo {
-  padding-left: 60px;
+  padding-left: 82px;
 }
 
 .porfolio_6__imac {
-  padding-top: 25px;  
+  padding-top: 30px;  
 }
 
 
@@ -1612,14 +1639,14 @@
 .porfolio_6__typography {
   background: url(../../img/port6/bg_typography.jpg) center no-repeat #828282;
   background-size: cover;
-  padding: 92px 0;  
+  padding: 95px 0;  
   color: #fff;
 }
 
 .porfolio_6__typography-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
   padding-top: 50px;
   max-width: 1030px;
   width: 100%;
@@ -1677,7 +1704,7 @@
 
 .porfolio_6__filter {
   background-color:#fff;
-  padding: 120px 0 70px;    
+  padding: 120px 0 65px;    
 }
 
 .porfolio_6__filter-txt {
@@ -1701,17 +1728,14 @@
 
 .porfolio_6__convenience {
   background-color:#fff;
-  padding: 120px 0 0;
-}
-
-.porfolio_6__convenience-items {
-  padding-top: 50px;
+  padding: 120px 0 20px;
 }
 
 .porfolio_6__convenience-item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
+  padding-top: 55px;
 }
 
 .porfolio_6__convenience-txt {
@@ -1728,7 +1752,7 @@
   position: relative;
   background: url(../../img/port6/bg_search.jpg) center no-repeat #828282;
   background-size: cover;
-  padding: 60px 0;
+  padding: 43px 0;
   color: #fff;
 }
 
@@ -1741,21 +1765,21 @@
   max-width: 707px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px 0 55px;
+  padding: 30px 0 45px;
 }
 
 
 /* porfolio_6 edit */
 
 .porfolio_6__edit {  
-  padding: 120px 0;  
+  padding: 120px 0 95px;  
 }
 
 .porfolio_6__edit-txt {
-  max-width: 675px;
+  max-width: 725px;
   width: 100%;
   margin: 0 auto;
-  padding: 30px 0 50px;
+  padding: 30px 0;
 }
 
 
@@ -1765,7 +1789,7 @@
   position: relative;
   background: url(../../img/port6/bg_presentations.jpg) center no-repeat #00bfff ;
   background-size: cover;
-  padding: 60px 0 65px;
+  padding: 65px 0;
   color: #fff;
 }
 
@@ -1775,8 +1799,8 @@
 }
 
 .porfolio_6__presentations .d-flex {
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: center;  
 }
 
 .porfolio_6__presentations-info {
@@ -1817,13 +1841,15 @@
 }
 
 .porfolio_6__sync-icon_lg {
-  max-width: 775px;
-  margin-top: -75px;
+  max-width: 790px;
+  margin-top: -85px;
 }
 
 .porfolio_6__sync-icon_sm {
-  max-width: 555px;  
+  max-width: 610px;
+  margin-top: 30px;  
 }
+
 
 
 
@@ -2276,6 +2302,88 @@
   .portfolio_2 .portfolio_block.footer_info .text {
     height: 130px;
   }
+
+  .porfolio_6 {
+    font-size: 18px;
+  }
+
+  .porfolio_6 .title-h1 {
+    font-size: 40px;
+  }
+
+  .porfolio_6__logo {
+    padding-left: 0;
+  }
+
+  .porfolio_6__about {   
+    padding: 60px 0;
+  }
+
+  .porfolio_6__filter {    
+    padding: 65px 0;
+  }
+
+  .porfolio_6__convenience {    
+    padding: 60px 0;
+  }
+
+  .porfolio_6__convenience-item {    
+    padding-top: 30px;
+  }
+
+  .porfolio_6__convenience-txt {   
+    font-size: 25px;
+  }
+
+  .porfolio_6__edit {
+    padding: 65px 0;
+  }
+
+  .porfolio_6__presentations-info {
+    max-width: 400px;    
+    margin: 0;
+    padding: 30px 25px 30px 0;
+  }
+
+  .porfolio_6__sync {    
+    padding: 60px 0;
+  }
+
+  .porfolio_6__sync-logo {
+    max-width: 275px;
+    width: 100%;
+    margin: 35px auto;
+  }
+
+  .porfolio_6__sync-arrow {
+    display: none;
+  }
+
+  .porfolio_6__sync-icon img {
+    max-width: 40%;
+  }
+
+  .porfolio_6__sync-icon_lg {
+    max-width: 320px;
+    margin-top: 0;
+  }
+
+  .porfolio_6__sync-icon_sm {    
+    max-width: 320px;
+    margin-top: 0;
+  }
+
+  .porfolio_6__typography-info {
+    justify-content: space-around;
+  }
+
+  .padding_left-50 {
+    padding-left: 25px;
+  } 
+
+  .padding_right-50 {
+    padding-right: 25px;
+  } 
 }
 
 @media (max-width: 991.98px) {
@@ -2520,6 +2628,18 @@
 
   .portfolio_2 .portfolio_block.user .text {
     height: 480px;
+  }
+
+  .porfolio_6__typography-icons {   
+    max-width: 245px;    
+  }
+
+  .porfolio_6__typography-txt {    
+    max-width: 355px;
+  }
+
+  .porfolio_6__convenience-txt {
+    font-size: 20px;
   }
 }
 
@@ -2925,10 +3045,58 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 700px) { 
+
   .portfolio_1 .portfolio_format .block_info_._left {
     left: 30px;
     max-width: 80vw;
+  }
+
+   .porfolio_6 {
+    font-size: 16px;
+  }
+
+  .porfolio_6 .title-h1 {
+    font-size: 26px;
+  } 
+
+  .porfolio_6__typography {   
+    padding: 35px 0;
+  } 
+
+  .porfolio_6__typography-info {
+    flex-direction: column;
+  }
+
+  .porfolio_6__typography-icons {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .porfolio_6__typography-txt {
+    max-width: 320px;
+    margin: 40px auto 0;
+  }
+
+  .porfolio_6__presentations .d-flex {
+    flex-direction: column;
+  }
+
+  .porfolio_6__presentations-info {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .porfolio_6__edit-txt {
+    max-width: 100%;    
+  } 
+  
+  .padding_left-50,
+  .padding_right-50 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -3069,6 +3237,20 @@
     margin-top: 160px;
     height: 105px;
   }
+
+  .porfolio_6__convenience-item {   
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .porfolio_6__convenience-txt {
+    max-width: 100%;   
+    font-size: 18px;  
+  }
+
+  .porfolio_6__convenience-img {
+    display: none;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -3175,6 +3357,10 @@
   .portfolio_2 .portfolio_block.footer_info .text {
     padding: 15px;
     height: auto;
+  }
+
+  .porfolio_6__header {    
+    padding: 30px 0;
   }
 }
 
