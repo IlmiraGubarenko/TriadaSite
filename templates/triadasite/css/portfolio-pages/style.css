@@ -1662,7 +1662,14 @@
 }
 
 .porfolio_6__typography-icon {  
-  padding-top: 105px;
+  padding-top: 105px;  
+}
+
+.porfolio_6__typography-icon--blue {    
+  background: url(../../img/port6/ic_typography-blue.svg) center top no-repeat;
+}
+
+.porfolio_6__typography-icon--grey {  
   background: url(../../img/port6/ic_typography.svg) center top no-repeat;
 }
 
@@ -2309,10 +2316,6 @@
 
   .porfolio_6 .title-h1 {
     font-size: 40px;
-  }
-
-  .porfolio_6__logo {
-    padding-left: 0;
   }
 
   .porfolio_6__about {   
@@ -3249,7 +3252,8 @@
   }
 
   .porfolio_6__convenience-img {
-    display: none;
+    order: 1;
+    margin-top: 25px;
   }
 }
 
